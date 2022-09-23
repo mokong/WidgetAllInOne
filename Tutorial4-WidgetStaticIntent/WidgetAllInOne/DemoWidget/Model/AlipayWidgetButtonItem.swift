@@ -8,7 +8,8 @@
 import Foundation
 
 public enum ButtonType: String {
-    case Scan = "扫一扫"
+    case unknown = "去设置"
+    case scan = "扫一扫"
     case pay = "收付款"
     case healthCode = "健康码"
     case travelCode = "行程卡"
@@ -40,7 +41,7 @@ extension ButtonType: Identifiable {
     /// return (image, url)
     func imageAndUrl(from type: ButtonType) -> (String, String) {
         switch self {
-        case .Scan:
+        case .scan:
             return ("widget_scan", "https://www.baidu.com/")
         case .pay:
             return ("widget_pay", "https://www.baidu.com/")
@@ -56,6 +57,8 @@ extension ButtonType: Identifiable {
             return ("widget_memberpoints", "https://www.baidu.com/")
         case .yuebao:
             return ("widget_yuebao", "https://www.baidu.com/")
+        case .unknown:
+            return ("widget_", "")
         }
     }
 }

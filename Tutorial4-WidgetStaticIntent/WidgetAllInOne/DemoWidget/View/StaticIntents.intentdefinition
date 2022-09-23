@@ -3,7 +3,111 @@
 <plist version="1.0">
 <dict>
 	<key>INEnums</key>
-	<array/>
+	<array>
+		<dict>
+			<key>INEnumDisplayName</key>
+			<string>Intent Button Type</string>
+			<key>INEnumDisplayNameID</key>
+			<string>MffovG</string>
+			<key>INEnumGeneratesHeader</key>
+			<true/>
+			<key>INEnumName</key>
+			<string>IntentButtonType</string>
+			<key>INEnumType</key>
+			<string>Regular</string>
+			<key>INEnumValues</key>
+			<array>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>unknown</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>MirOgv</string>
+					<key>INEnumValueName</key>
+					<string>unknown</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>scan</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>KnEyTS</string>
+					<key>INEnumValueIndex</key>
+					<integer>1</integer>
+					<key>INEnumValueName</key>
+					<string>scan</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>pay</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>9BWl9C</string>
+					<key>INEnumValueIndex</key>
+					<integer>2</integer>
+					<key>INEnumValueName</key>
+					<string>pay</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>health code</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>9YapgH</string>
+					<key>INEnumValueIndex</key>
+					<integer>3</integer>
+					<key>INEnumValueName</key>
+					<string>healthCode</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>travel code</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>22dsfa</string>
+					<key>INEnumValueIndex</key>
+					<integer>4</integer>
+					<key>INEnumValueName</key>
+					<string>travelCode</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>trip</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>Xalsi1</string>
+					<key>INEnumValueIndex</key>
+					<integer>5</integer>
+					<key>INEnumValueName</key>
+					<string>trip</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>stuck</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>qp3vRU</string>
+					<key>INEnumValueIndex</key>
+					<integer>6</integer>
+					<key>INEnumValueName</key>
+					<string>stuck</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>memberpoints</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>PJ264q</string>
+					<key>INEnumValueIndex</key>
+					<integer>7</integer>
+					<key>INEnumValueName</key>
+					<string>memberpoints</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>yuebao</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>MGp8b4</string>
+					<key>INEnumValueIndex</key>
+					<integer>8</integer>
+					<key>INEnumValueName</key>
+					<string>yuebao</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
 	<key>INIntentDefinitionModelVersion</key>
 	<string>1.2</string>
 	<key>INIntentDefinitionNamespace</key>
@@ -18,63 +122,75 @@
 	<array>
 		<dict>
 			<key>INIntentCategory</key>
-			<string>generic</string>
-			<key>INIntentConfigurable</key>
-			<true/>
+			<string>information</string>
+			<key>INIntentDescription</key>
+			<string>选择常用功能</string>
 			<key>INIntentDescriptionID</key>
 			<string>lNQURX</string>
 			<key>INIntentEligibleForWidgets</key>
 			<true/>
+			<key>INIntentIneligibleForSuggestions</key>
+			<true/>
 			<key>INIntentLastParameterTag</key>
-			<integer>1</integer>
-			<key>INIntentManagedParameterCombinations</key>
-			<dict>
-				<key>parameter</key>
-				<dict>
-					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
-					<true/>
-					<key>INIntentParameterCombinationUpdatesLinked</key>
-					<true/>
-				</dict>
-			</dict>
+			<integer>3</integer>
 			<key>INIntentName</key>
-			<string>Intent</string>
-			<key>INIntentParameterCombinations</key>
-			<dict>
-				<key>parameter</key>
-				<dict>
-					<key>INIntentParameterCombinationIsLinked</key>
-					<true/>
-					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
-					<true/>
-				</dict>
-			</dict>
+			<string>FuncSelect</string>
 			<key>INIntentParameters</key>
 			<array>
 				<dict>
 					<key>INIntentParameterConfigurable</key>
 					<true/>
 					<key>INIntentParameterDisplayName</key>
-					<string>Parameter</string>
+					<string>btnType</string>
 					<key>INIntentParameterDisplayNameID</key>
 					<string>jUZunP</string>
 					<key>INIntentParameterDisplayPriority</key>
 					<integer>1</integer>
-					<key>INIntentParameterMetadata</key>
-					<dict>
-						<key>INIntentParameterMetadataCapitalization</key>
-						<string>Sentences</string>
-						<key>INIntentParameterMetadataDefaultValueID</key>
-						<string>SechnX</string>
-					</dict>
+					<key>INIntentParameterEnumType</key>
+					<string>IntentButtonType</string>
+					<key>INIntentParameterEnumTypeNamespace</key>
+					<string>LZ5KBR</string>
 					<key>INIntentParameterName</key>
-					<string>parameter</string>
-					<key>INIntentParameterSupportsResolution</key>
-					<true/>
+					<string>btnType</string>
+					<key>INIntentParameterPromptDialogs</key>
+					<array>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Configuration</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Primary</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>There are ${count} options matching ‘${btnType}’.</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>wQbZCH</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>DisambiguationIntroduction</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Just to confirm, you wanted ‘${btnType}’?</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>3s6CRa</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Confirmation</string>
+						</dict>
+					</array>
 					<key>INIntentParameterTag</key>
-					<integer>1</integer>
+					<integer>3</integer>
 					<key>INIntentParameterType</key>
-					<string>String</string>
+					<string>Integer</string>
 				</dict>
 			</array>
 			<key>INIntentResponse</key>
@@ -100,7 +216,7 @@
 			<key>INIntentType</key>
 			<string>Custom</string>
 			<key>INIntentVerb</key>
-			<string>Do</string>
+			<string>View</string>
 		</dict>
 	</array>
 	<key>INTypes</key>

@@ -39,7 +39,7 @@ class AliPayWidgetMediumItem: ObservableObject {
     }
     
     private static func createMeidumWidgetGroupButtons() -> [[AlipayWidgetButtonItem]] {
-        let scanType = ButtonType.Scan
+        let scanType = ButtonType.scan
         let scanItem = AlipayWidgetButtonItem(title: scanType.rawValue,
                                               imageName: scanType.imageName,
                                               urlStr: scanType.urlStr)
