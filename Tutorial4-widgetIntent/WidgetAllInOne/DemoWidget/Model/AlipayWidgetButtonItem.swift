@@ -8,7 +8,7 @@
 import Foundation
 
 public enum ButtonType: String {
-    case unknown = "去设置"
+    case unknown = ""
     case scan = "扫一扫"
     case pay = "收付款"
     case healthCode = "健康码"
@@ -58,7 +58,7 @@ extension ButtonType: Identifiable {
         case .yuebao:
             return ("widget_yuebao", "https://www.baidu.com/")
         case .unknown:
-            return ("widget_", "")
+            return ("", "")
         }
     }
 }

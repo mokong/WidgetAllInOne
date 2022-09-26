@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4811023428DD9AD000022902 /* StaticIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 4811023328DD9AD000022902 /* StaticIntents.intentdefinition */; };
-		4811023628DD9D2100022902 /* StaticAlipayTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4811023528DD9D2100022902 /* StaticAlipayTimelineProvider.swift */; };
 		4812FCAF284EF8B70051BAFD /* QQSyncWidgetDateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4812FCAE284EF8B70051BAFD /* QQSyncWidgetDateItem.swift */; };
 		4812FCB2284EFA810051BAFD /* String_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4812FCB1284EFA810051BAFD /* String_Extensions.swift */; };
 		4812FCB4284EFBA70051BAFD /* QQSyncWidgetDateShareItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4812FCB3284EFBA70051BAFD /* QQSyncWidgetDateShareItem.swift */; };
@@ -33,6 +31,9 @@
 		482C8B66282A3DD5006BB6BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 482C8B65282A3DD5006BB6BC /* Assets.xcassets */; };
 		482C8B6A282A3DD5006BB6BC /* DemoWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 482C8B5C282A3DD0006BB6BC /* DemoWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4876BF672846F7D000B80333 /* QQSyncWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876BF662846F7D000B80333 /* QQSyncWidgetView.swift */; };
+		488B5C2728E14CA900983D6D /* WidgetIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 488B5C2628E14CA900983D6D /* WidgetIntents.intentdefinition */; };
+		488B5C2928E1700400983D6D /* StaticIntentWidgetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B5C2828E1700400983D6D /* StaticIntentWidgetProvider.swift */; };
+		488B5C2A28E1769000983D6D /* WidgetIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 488B5C2628E14CA900983D6D /* WidgetIntents.intentdefinition */; };
 		4890D91A2857141300DCB9C9 /* AlipayWidgetMeidumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4890D9192857141300DCB9C9 /* AlipayWidgetMeidumView.swift */; };
 		4890D91C2857144100DCB9C9 /* AlipayWidgetGroupButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4890D91B2857144100DCB9C9 /* AlipayWidgetGroupButtons.swift */; };
 		4890D91E2857173900DCB9C9 /* AlipayWidgetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4890D91D2857173900DCB9C9 /* AlipayWidgetButton.swift */; };
@@ -69,10 +70,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4811023328DD9AD000022902 /* StaticIntents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = StaticIntents.intentdefinition; sourceTree = "<group>"; };
-		4811023528DD9D2100022902 /* StaticAlipayTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticAlipayTimelineProvider.swift; sourceTree = "<group>"; };
-		4811023C28DDA65B00022902 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
-		4811024728DDA65C00022902 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
 		4812FCAE284EF8B70051BAFD /* QQSyncWidgetDateItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QQSyncWidgetDateItem.swift; sourceTree = "<group>"; };
 		4812FCB1284EFA810051BAFD /* String_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String_Extensions.swift; sourceTree = "<group>"; };
 		4812FCB3284EFBA70051BAFD /* QQSyncWidgetDateShareItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QQSyncWidgetDateShareItem.swift; sourceTree = "<group>"; };
@@ -102,6 +99,8 @@
 		482C8B67282A3DD5006BB6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		482C8B6F282A3E11006BB6BC /* DemoWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoWidgetExtension.entitlements; sourceTree = "<group>"; };
 		4876BF662846F7D000B80333 /* QQSyncWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QQSyncWidgetView.swift; sourceTree = "<group>"; };
+		488B5C2628E14CA900983D6D /* WidgetIntents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = WidgetIntents.intentdefinition; sourceTree = "<group>"; };
+		488B5C2828E1700400983D6D /* StaticIntentWidgetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticIntentWidgetProvider.swift; sourceTree = "<group>"; };
 		4890D9192857141300DCB9C9 /* AlipayWidgetMeidumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlipayWidgetMeidumView.swift; sourceTree = "<group>"; };
 		4890D91B2857144100DCB9C9 /* AlipayWidgetGroupButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlipayWidgetGroupButtons.swift; sourceTree = "<group>"; };
 		4890D91D2857173900DCB9C9 /* AlipayWidgetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlipayWidgetButton.swift; sourceTree = "<group>"; };
@@ -177,7 +176,7 @@
 				48D63FF62851D50F00CF195C /* AlipayWidgetLunarView.swift */,
 				4890D91B2857144100DCB9C9 /* AlipayWidgetGroupButtons.swift */,
 				4890D91D2857173900DCB9C9 /* AlipayWidgetButton.swift */,
-				4811023328DD9AD000022902 /* StaticIntents.intentdefinition */,
+				488B5C2628E14CA900983D6D /* WidgetIntents.intentdefinition */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -222,8 +221,6 @@
 			children = (
 				482C8B5E282A3DD0006BB6BC /* WidgetKit.framework */,
 				482C8B60282A3DD0006BB6BC /* SwiftUI.framework */,
-				4811023C28DDA65B00022902 /* Intents.framework */,
-				4811024728DDA65C00022902 /* IntentsUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -248,7 +245,7 @@
 			children = (
 				482C8B63282A3DD0006BB6BC /* DemoWidget.swift */,
 				48D63FFA2851D73D00CF195C /* AlipayWidgetProvider.swift */,
-				4811023528DD9D2100022902 /* StaticAlipayTimelineProvider.swift */,
+				488B5C2828E1700400983D6D /* StaticIntentWidgetProvider.swift */,
 			);
 			path = WidgetProvider;
 			sourceTree = "<group>";
@@ -299,7 +296,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1400;
+				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					482C8B3F282A0E82006BB6BC = {
@@ -355,6 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				488B5C2A28E1769000983D6D /* WidgetIntents.intentdefinition in Sources */,
 				482C8B48282A0E82006BB6BC /* ViewController.swift in Sources */,
 				482C8B44282A0E82006BB6BC /* AppDelegate.swift in Sources */,
 				482C8B46282A0E82006BB6BC /* SceneDelegate.swift in Sources */,
@@ -369,24 +367,24 @@
 				4890D91C2857144100DCB9C9 /* AlipayWidgetGroupButtons.swift in Sources */,
 				48D63FF72851D50F00CF195C /* AlipayWidgetLunarView.swift in Sources */,
 				48D63FFB2851D73D00CF195C /* AlipayWidgetProvider.swift in Sources */,
-				4811023628DD9D2100022902 /* StaticAlipayTimelineProvider.swift in Sources */,
 				4812FCB7284F3EA90051BAFD /* NetworkClient.swift in Sources */,
 				4812FCAF284EF8B70051BAFD /* QQSyncWidgetDateItem.swift in Sources */,
 				482C8B64282A3DD0006BB6BC /* DemoWidget.swift in Sources */,
 				4812FCBB284F402F0051BAFD /* QuoteService.swift in Sources */,
 				48FA229C285077AF00AC47D2 /* WidgetBundleDemo.swift in Sources */,
 				481A834D284DEF8600CA4BB6 /* QQSyncQuoteTextView.swift in Sources */,
+				488B5C2928E1700400983D6D /* StaticIntentWidgetProvider.swift in Sources */,
 				4876BF672846F7D000B80333 /* QQSyncWidgetView.swift in Sources */,
 				481A834F284DEFB300CA4BB6 /* QQSyncDateShareView.swift in Sources */,
 				4890D91E2857173900DCB9C9 /* AlipayWidgetButton.swift in Sources */,
 				4890D91A2857141300DCB9C9 /* AlipayWidgetMeidumView.swift in Sources */,
 				4812FCBF284F45A90051BAFD /* QQSyncWidgetQuoteShareItem.swift in Sources */,
 				481A8351284DF94B00CA4BB6 /* QQSyncWidgetSmall.swift in Sources */,
+				488B5C2728E14CA900983D6D /* WidgetIntents.intentdefinition in Sources */,
 				4890D920285717C400DCB9C9 /* AlipayWidgetButtonItem.swift in Sources */,
 				48AEBF1128C9BFF1000FA467 /* AliPayWidgetMediumItem.swift in Sources */,
 				48D63FF52851D0B900CF195C /* AlipayWidgetWeatherDateView.swift in Sources */,
 				481A8353284DF95600CA4BB6 /* QQSyncWidgetMedium.swift in Sources */,
-				4811023428DD9AD000022902 /* StaticIntents.intentdefinition in Sources */,
 				4812FCB4284EFBA70051BAFD /* QQSyncWidgetDateShareItem.swift in Sources */,
 				4812FCB9284F3FAE0051BAFD /* URLRequest+Quote.swift in Sources */,
 				4812FCBD284F41160051BAFD /* QuoteResItem.swift in Sources */,

@@ -6,13 +6,13 @@
 	<array>
 		<dict>
 			<key>INEnumDisplayName</key>
-			<string>Intent Button Type</string>
+			<string>Configuration Button Type</string>
 			<key>INEnumDisplayNameID</key>
-			<string>MffovG</string>
+			<string>MKWQIY</string>
 			<key>INEnumGeneratesHeader</key>
 			<true/>
 			<key>INEnumName</key>
-			<string>IntentButtonType</string>
+			<string>ConfigrationButtonType</string>
 			<key>INEnumType</key>
 			<string>Regular</string>
 			<key>INEnumValues</key>
@@ -21,15 +21,15 @@
 					<key>INEnumValueDisplayName</key>
 					<string>unknown</string>
 					<key>INEnumValueDisplayNameID</key>
-					<string>MirOgv</string>
+					<string>57H8KS</string>
 					<key>INEnumValueName</key>
 					<string>unknown</string>
 				</dict>
 				<dict>
 					<key>INEnumValueDisplayName</key>
-					<string>scan</string>
+					<string>扫一扫</string>
 					<key>INEnumValueDisplayNameID</key>
-					<string>KnEyTS</string>
+					<string>Zt4LSL</string>
 					<key>INEnumValueIndex</key>
 					<integer>1</integer>
 					<key>INEnumValueName</key>
@@ -37,9 +37,9 @@
 				</dict>
 				<dict>
 					<key>INEnumValueDisplayName</key>
-					<string>pay</string>
+					<string>收付款</string>
 					<key>INEnumValueDisplayNameID</key>
-					<string>9BWl9C</string>
+					<string>JGrA3b</string>
 					<key>INEnumValueIndex</key>
 					<integer>2</integer>
 					<key>INEnumValueName</key>
@@ -47,9 +47,9 @@
 				</dict>
 				<dict>
 					<key>INEnumValueDisplayName</key>
-					<string>health code</string>
+					<string>健康码</string>
 					<key>INEnumValueDisplayNameID</key>
-					<string>9YapgH</string>
+					<string>trHO9k</string>
 					<key>INEnumValueIndex</key>
 					<integer>3</integer>
 					<key>INEnumValueName</key>
@@ -57,9 +57,9 @@
 				</dict>
 				<dict>
 					<key>INEnumValueDisplayName</key>
-					<string>travel code</string>
+					<string>行程卡</string>
 					<key>INEnumValueDisplayNameID</key>
-					<string>22dsfa</string>
+					<string>o3Wf1w</string>
 					<key>INEnumValueIndex</key>
 					<integer>4</integer>
 					<key>INEnumValueName</key>
@@ -67,9 +67,9 @@
 				</dict>
 				<dict>
 					<key>INEnumValueDisplayName</key>
-					<string>trip</string>
+					<string>出行</string>
 					<key>INEnumValueDisplayNameID</key>
-					<string>Xalsi1</string>
+					<string>Q6iiZ9</string>
 					<key>INEnumValueIndex</key>
 					<integer>5</integer>
 					<key>INEnumValueName</key>
@@ -77,9 +77,9 @@
 				</dict>
 				<dict>
 					<key>INEnumValueDisplayName</key>
-					<string>stuck</string>
+					<string>卡包</string>
 					<key>INEnumValueDisplayNameID</key>
-					<string>qp3vRU</string>
+					<string>5fw8q0</string>
 					<key>INEnumValueIndex</key>
 					<integer>6</integer>
 					<key>INEnumValueName</key>
@@ -87,9 +87,9 @@
 				</dict>
 				<dict>
 					<key>INEnumValueDisplayName</key>
-					<string>memberpoints</string>
+					<string>会员积分</string>
 					<key>INEnumValueDisplayNameID</key>
-					<string>PJ264q</string>
+					<string>wmAFZD</string>
 					<key>INEnumValueIndex</key>
 					<integer>7</integer>
 					<key>INEnumValueName</key>
@@ -97,9 +97,9 @@
 				</dict>
 				<dict>
 					<key>INEnumValueDisplayName</key>
-					<string>yuebao</string>
+					<string>余额宝</string>
 					<key>INEnumValueDisplayNameID</key>
-					<string>MGp8b4</string>
+					<string>s3QmNT</string>
 					<key>INEnumValueIndex</key>
 					<integer>8</integer>
 					<key>INEnumValueName</key>
@@ -111,7 +111,7 @@
 	<key>INIntentDefinitionModelVersion</key>
 	<string>1.2</string>
 	<key>INIntentDefinitionNamespace</key>
-	<string>LZ5KBR</string>
+	<string>r3V4wv</string>
 	<key>INIntentDefinitionSystemVersion</key>
 	<string>21G115</string>
 	<key>INIntentDefinitionToolsBuildVersion</key>
@@ -123,33 +123,36 @@
 		<dict>
 			<key>INIntentCategory</key>
 			<string>information</string>
-			<key>INIntentDescription</key>
-			<string>选择常用功能</string>
 			<key>INIntentDescriptionID</key>
-			<string>lNQURX</string>
+			<string>08izZw</string>
 			<key>INIntentEligibleForWidgets</key>
 			<true/>
 			<key>INIntentIneligibleForSuggestions</key>
 			<true/>
 			<key>INIntentLastParameterTag</key>
-			<integer>3</integer>
+			<integer>4</integer>
 			<key>INIntentName</key>
-			<string>FuncSelect</string>
+			<string>StaticConfiguration</string>
 			<key>INIntentParameters</key>
 			<array>
 				<dict>
 					<key>INIntentParameterConfigurable</key>
 					<true/>
 					<key>INIntentParameterDisplayName</key>
-					<string>btnType</string>
+					<string>Btn Type</string>
 					<key>INIntentParameterDisplayNameID</key>
-					<string>jUZunP</string>
+					<string>sX7GuI</string>
 					<key>INIntentParameterDisplayPriority</key>
 					<integer>1</integer>
 					<key>INIntentParameterEnumType</key>
-					<string>IntentButtonType</string>
+					<string>ConfigrationButtonType</string>
 					<key>INIntentParameterEnumTypeNamespace</key>
-					<string>LZ5KBR</string>
+					<string>r3V4wv</string>
+					<key>INIntentParameterMetadata</key>
+					<dict>
+						<key>INIntentParameterMetadataDefaultValue</key>
+						<string>scan</string>
+					</dict>
 					<key>INIntentParameterName</key>
 					<string>btnType</string>
 					<key>INIntentParameterPromptDialogs</key>
@@ -172,7 +175,7 @@
 							<key>INIntentParameterPromptDialogFormatString</key>
 							<string>There are ${count} options matching ‘${btnType}’.</string>
 							<key>INIntentParameterPromptDialogFormatStringID</key>
-							<string>wQbZCH</string>
+							<string>st6Dfh</string>
 							<key>INIntentParameterPromptDialogType</key>
 							<string>DisambiguationIntroduction</string>
 						</dict>
@@ -182,13 +185,13 @@
 							<key>INIntentParameterPromptDialogFormatString</key>
 							<string>Just to confirm, you wanted ‘${btnType}’?</string>
 							<key>INIntentParameterPromptDialogFormatStringID</key>
-							<string>3s6CRa</string>
+							<string>QprkUd</string>
 							<key>INIntentParameterPromptDialogType</key>
 							<string>Confirmation</string>
 						</dict>
 					</array>
 					<key>INIntentParameterTag</key>
-					<integer>3</integer>
+					<integer>4</integer>
 					<key>INIntentParameterType</key>
 					<string>Integer</string>
 				</dict>
@@ -210,9 +213,9 @@
 				</array>
 			</dict>
 			<key>INIntentTitle</key>
-			<string>选择功能</string>
+			<string>StaticConfiguration</string>
 			<key>INIntentTitleID</key>
-			<string>p0S9K4</string>
+			<string>x3MXtK</string>
 			<key>INIntentType</key>
 			<string>Custom</string>
 			<key>INIntentVerb</key>
