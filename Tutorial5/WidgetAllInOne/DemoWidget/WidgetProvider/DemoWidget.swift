@@ -45,16 +45,18 @@ struct DemoWidgetEntryView : View {
     }
 }
 
-@main
 struct DemoWidget: Widget {
     let kind: String = "DemoWidget"
 
+    var title: String = "My Widget"
+    var desc: String = "This is an example widget."
+    
     var body: some WidgetConfiguration {
         StaticConfiguration(kind: kind, provider: Provider()) { entry in
             DemoWidgetEntryView(entry: entry)
         }
-        .configurationDisplayName("My Widget")
-        .description("This is an example widget.")
+        .configurationDisplayName(title)
+        .description(desc)
         .supportedFamilies([WidgetFamily.systemMedium])
     }
 }

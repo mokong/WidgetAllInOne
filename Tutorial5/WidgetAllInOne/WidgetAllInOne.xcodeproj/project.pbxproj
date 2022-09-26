@@ -31,6 +31,24 @@
 		482C8B66282A3DD5006BB6BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 482C8B65282A3DD5006BB6BC /* Assets.xcassets */; };
 		482C8B6A282A3DD5006BB6BC /* DemoWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 482C8B5C282A3DD0006BB6BC /* DemoWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4876BF672846F7D000B80333 /* QQSyncWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876BF662846F7D000B80333 /* QQSyncWidgetView.swift */; };
+		488B5C2728E14CA900983D6D /* WidgetIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 488B5C2628E14CA900983D6D /* WidgetIntents.intentdefinition */; };
+		488B5C2928E1700400983D6D /* StaticIntentWidgetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B5C2828E1700400983D6D /* StaticIntentWidgetProvider.swift */; };
+		488B5C2A28E1769000983D6D /* WidgetIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 488B5C2628E14CA900983D6D /* WidgetIntents.intentdefinition */; };
+		4890D91A2857141300DCB9C9 /* AlipayWidgetMeidumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4890D9192857141300DCB9C9 /* AlipayWidgetMeidumView.swift */; };
+		4890D91C2857144100DCB9C9 /* AlipayWidgetGroupButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4890D91B2857144100DCB9C9 /* AlipayWidgetGroupButtons.swift */; };
+		4890D91E2857173900DCB9C9 /* AlipayWidgetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4890D91D2857173900DCB9C9 /* AlipayWidgetButton.swift */; };
+		4890D920285717C400DCB9C9 /* AlipayWidgetButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4890D91F285717C400DCB9C9 /* AlipayWidgetButtonItem.swift */; };
+		48AE3A7A28E19E3600D90254 /* DynamicIntentWidgetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AE3A7928E19E3600D90254 /* DynamicIntentWidgetProvider.swift */; };
+		48AE3A8128E19F0400D90254 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48AE3A8028E19F0400D90254 /* Intents.framework */; };
+		48AE3A8428E19F0400D90254 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AE3A8328E19F0400D90254 /* IntentHandler.swift */; };
+		48AE3A8828E19F0500D90254 /* WidgetIntentExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 48AE3A7F28E19F0400D90254 /* WidgetIntentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		48AE3A8C28E19F1600D90254 /* AlipayWidgetButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4890D91F285717C400DCB9C9 /* AlipayWidgetButtonItem.swift */; };
+		48AE3A8D28E19F1A00D90254 /* WidgetIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 488B5C2628E14CA900983D6D /* WidgetIntents.intentdefinition */; };
+		48AEBF1128C9BFF1000FA467 /* AliPayWidgetMediumItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AEBF1028C9BFF1000FA467 /* AliPayWidgetMediumItem.swift */; };
+		48D63FF52851D0B900CF195C /* AlipayWidgetWeatherDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D63FF42851D0B900CF195C /* AlipayWidgetWeatherDateView.swift */; };
+		48D63FF72851D50F00CF195C /* AlipayWidgetLunarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D63FF62851D50F00CF195C /* AlipayWidgetLunarView.swift */; };
+		48D63FFB2851D73D00CF195C /* AlipayWidgetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D63FFA2851D73D00CF195C /* AlipayWidgetProvider.swift */; };
+		48FA229C285077AF00AC47D2 /* WidgetBundleDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FA229B285077AF00AC47D2 /* WidgetBundleDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +59,13 @@
 			remoteGlobalIDString = 482C8B5B282A3DD0006BB6BC;
 			remoteInfo = DemoWidgetExtension;
 		};
+		48AE3A8628E19F0400D90254 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 482C8B38282A0E82006BB6BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48AE3A7E28E19F0400D90254;
+			remoteInfo = WidgetIntentExtension;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +75,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				48AE3A8828E19F0500D90254 /* WidgetIntentExtension.appex in Embed App Extensions */,
 				482C8B6A282A3DD5006BB6BC /* DemoWidgetExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -87,6 +113,22 @@
 		482C8B67282A3DD5006BB6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		482C8B6F282A3E11006BB6BC /* DemoWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoWidgetExtension.entitlements; sourceTree = "<group>"; };
 		4876BF662846F7D000B80333 /* QQSyncWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QQSyncWidgetView.swift; sourceTree = "<group>"; };
+		488B5C2628E14CA900983D6D /* WidgetIntents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = WidgetIntents.intentdefinition; sourceTree = "<group>"; };
+		488B5C2828E1700400983D6D /* StaticIntentWidgetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticIntentWidgetProvider.swift; sourceTree = "<group>"; };
+		4890D9192857141300DCB9C9 /* AlipayWidgetMeidumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlipayWidgetMeidumView.swift; sourceTree = "<group>"; };
+		4890D91B2857144100DCB9C9 /* AlipayWidgetGroupButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlipayWidgetGroupButtons.swift; sourceTree = "<group>"; };
+		4890D91D2857173900DCB9C9 /* AlipayWidgetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlipayWidgetButton.swift; sourceTree = "<group>"; };
+		4890D91F285717C400DCB9C9 /* AlipayWidgetButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlipayWidgetButtonItem.swift; sourceTree = "<group>"; };
+		48AE3A7928E19E3600D90254 /* DynamicIntentWidgetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicIntentWidgetProvider.swift; sourceTree = "<group>"; };
+		48AE3A7F28E19F0400D90254 /* WidgetIntentExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetIntentExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		48AE3A8028E19F0400D90254 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		48AE3A8328E19F0400D90254 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		48AE3A8528E19F0400D90254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48AEBF1028C9BFF1000FA467 /* AliPayWidgetMediumItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliPayWidgetMediumItem.swift; sourceTree = "<group>"; };
+		48D63FF42851D0B900CF195C /* AlipayWidgetWeatherDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlipayWidgetWeatherDateView.swift; sourceTree = "<group>"; };
+		48D63FF62851D50F00CF195C /* AlipayWidgetLunarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlipayWidgetLunarView.swift; sourceTree = "<group>"; };
+		48D63FFA2851D73D00CF195C /* AlipayWidgetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlipayWidgetProvider.swift; sourceTree = "<group>"; };
+		48FA229B285077AF00AC47D2 /* WidgetBundleDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetBundleDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +148,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		48AE3A7C28E19F0400D90254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48AE3A8128E19F0400D90254 /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -116,6 +166,8 @@
 				4812FCB3284EFBA70051BAFD /* QQSyncWidgetDateShareItem.swift */,
 				4812FCBC284F41160051BAFD /* QuoteResItem.swift */,
 				4812FCBE284F45A90051BAFD /* QQSyncWidgetQuoteShareItem.swift */,
+				4890D91F285717C400DCB9C9 /* AlipayWidgetButtonItem.swift */,
+				48AEBF1028C9BFF1000FA467 /* AliPayWidgetMediumItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -146,6 +198,12 @@
 				481A834E284DEFB300CA4BB6 /* QQSyncDateShareView.swift */,
 				481A8350284DF94B00CA4BB6 /* QQSyncWidgetSmall.swift */,
 				481A8352284DF95600CA4BB6 /* QQSyncWidgetMedium.swift */,
+				4890D9192857141300DCB9C9 /* AlipayWidgetMeidumView.swift */,
+				48D63FF42851D0B900CF195C /* AlipayWidgetWeatherDateView.swift */,
+				48D63FF62851D50F00CF195C /* AlipayWidgetLunarView.swift */,
+				4890D91B2857144100DCB9C9 /* AlipayWidgetGroupButtons.swift */,
+				4890D91D2857173900DCB9C9 /* AlipayWidgetButton.swift */,
+				488B5C2628E14CA900983D6D /* WidgetIntents.intentdefinition */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -156,6 +214,7 @@
 				482C8B6F282A3E11006BB6BC /* DemoWidgetExtension.entitlements */,
 				482C8B42282A0E82006BB6BC /* WidgetAllInOne */,
 				482C8B62282A3DD0006BB6BC /* DemoWidget */,
+				48AE3A8228E19F0400D90254 /* WidgetIntentExtension */,
 				482C8B5D282A3DD0006BB6BC /* Frameworks */,
 				482C8B41282A0E82006BB6BC /* Products */,
 			);
@@ -166,6 +225,7 @@
 			children = (
 				482C8B40282A0E82006BB6BC /* WidgetAllInOne.app */,
 				482C8B5C282A3DD0006BB6BC /* DemoWidgetExtension.appex */,
+				48AE3A7F28E19F0400D90254 /* WidgetIntentExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -190,6 +250,7 @@
 			children = (
 				482C8B5E282A3DD0006BB6BC /* WidgetKit.framework */,
 				482C8B60282A3DD0006BB6BC /* SwiftUI.framework */,
+				48AE3A8028E19F0400D90254 /* Intents.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -197,7 +258,8 @@
 		482C8B62282A3DD0006BB6BC /* DemoWidget */ = {
 			isa = PBXGroup;
 			children = (
-				482C8B63282A3DD0006BB6BC /* DemoWidget.swift */,
+				48FA229B285077AF00AC47D2 /* WidgetBundleDemo.swift */,
+				48D63FF92851D72800CF195C /* WidgetProvider */,
 				482C8B65282A3DD5006BB6BC /* Assets.xcassets */,
 				482C8B67282A3DD5006BB6BC /* Info.plist */,
 				4812FCB5284F3A9A0051BAFD /* Network */,
@@ -206,6 +268,26 @@
 				481A8354284E053800CA4BB6 /* View */,
 			);
 			path = DemoWidget;
+			sourceTree = "<group>";
+		};
+		48AE3A8228E19F0400D90254 /* WidgetIntentExtension */ = {
+			isa = PBXGroup;
+			children = (
+				48AE3A8328E19F0400D90254 /* IntentHandler.swift */,
+				48AE3A8528E19F0400D90254 /* Info.plist */,
+			);
+			path = WidgetIntentExtension;
+			sourceTree = "<group>";
+		};
+		48D63FF92851D72800CF195C /* WidgetProvider */ = {
+			isa = PBXGroup;
+			children = (
+				482C8B63282A3DD0006BB6BC /* DemoWidget.swift */,
+				48D63FFA2851D73D00CF195C /* AlipayWidgetProvider.swift */,
+				488B5C2828E1700400983D6D /* StaticIntentWidgetProvider.swift */,
+				48AE3A7928E19E3600D90254 /* DynamicIntentWidgetProvider.swift */,
+			);
+			path = WidgetProvider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +306,7 @@
 			);
 			dependencies = (
 				482C8B69282A3DD5006BB6BC /* PBXTargetDependency */,
+				48AE3A8728E19F0400D90254 /* PBXTargetDependency */,
 			);
 			name = WidgetAllInOne;
 			productName = WidgetAllInOne;
@@ -247,6 +330,23 @@
 			productReference = 482C8B5C282A3DD0006BB6BC /* DemoWidgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		48AE3A7E28E19F0400D90254 /* WidgetIntentExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48AE3A8928E19F0500D90254 /* Build configuration list for PBXNativeTarget "WidgetIntentExtension" */;
+			buildPhases = (
+				48AE3A7B28E19F0400D90254 /* Sources */,
+				48AE3A7C28E19F0400D90254 /* Frameworks */,
+				48AE3A7D28E19F0400D90254 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetIntentExtension;
+			productName = WidgetIntentExtension;
+			productReference = 48AE3A7F28E19F0400D90254 /* WidgetIntentExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -254,7 +354,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1330;
+				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					482C8B3F282A0E82006BB6BC = {
@@ -262,6 +362,9 @@
 					};
 					482C8B5B282A3DD0006BB6BC = {
 						CreatedOnToolsVersion = 13.3.1;
+					};
+					48AE3A7E28E19F0400D90254 = {
+						CreatedOnToolsVersion = 14.0;
 					};
 				};
 			};
@@ -280,6 +383,7 @@
 			targets = (
 				482C8B3F282A0E82006BB6BC /* WidgetAllInOne */,
 				482C8B5B282A3DD0006BB6BC /* DemoWidgetExtension */,
+				48AE3A7E28E19F0400D90254 /* WidgetIntentExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -303,6 +407,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		48AE3A7D28E19F0400D90254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -310,6 +421,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				488B5C2A28E1769000983D6D /* WidgetIntents.intentdefinition in Sources */,
 				482C8B48282A0E82006BB6BC /* ViewController.swift in Sources */,
 				482C8B44282A0E82006BB6BC /* AppDelegate.swift in Sources */,
 				482C8B46282A0E82006BB6BC /* SceneDelegate.swift in Sources */,
@@ -320,20 +432,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48AE3A7A28E19E3600D90254 /* DynamicIntentWidgetProvider.swift in Sources */,
 				4812FCB2284EFA810051BAFD /* String_Extensions.swift in Sources */,
+				4890D91C2857144100DCB9C9 /* AlipayWidgetGroupButtons.swift in Sources */,
+				48D63FF72851D50F00CF195C /* AlipayWidgetLunarView.swift in Sources */,
+				48D63FFB2851D73D00CF195C /* AlipayWidgetProvider.swift in Sources */,
 				4812FCB7284F3EA90051BAFD /* NetworkClient.swift in Sources */,
 				4812FCAF284EF8B70051BAFD /* QQSyncWidgetDateItem.swift in Sources */,
 				482C8B64282A3DD0006BB6BC /* DemoWidget.swift in Sources */,
 				4812FCBB284F402F0051BAFD /* QuoteService.swift in Sources */,
+				48FA229C285077AF00AC47D2 /* WidgetBundleDemo.swift in Sources */,
 				481A834D284DEF8600CA4BB6 /* QQSyncQuoteTextView.swift in Sources */,
+				488B5C2928E1700400983D6D /* StaticIntentWidgetProvider.swift in Sources */,
 				4876BF672846F7D000B80333 /* QQSyncWidgetView.swift in Sources */,
 				481A834F284DEFB300CA4BB6 /* QQSyncDateShareView.swift in Sources */,
+				4890D91E2857173900DCB9C9 /* AlipayWidgetButton.swift in Sources */,
+				4890D91A2857141300DCB9C9 /* AlipayWidgetMeidumView.swift in Sources */,
 				4812FCBF284F45A90051BAFD /* QQSyncWidgetQuoteShareItem.swift in Sources */,
 				481A8351284DF94B00CA4BB6 /* QQSyncWidgetSmall.swift in Sources */,
+				488B5C2728E14CA900983D6D /* WidgetIntents.intentdefinition in Sources */,
+				4890D920285717C400DCB9C9 /* AlipayWidgetButtonItem.swift in Sources */,
+				48AEBF1128C9BFF1000FA467 /* AliPayWidgetMediumItem.swift in Sources */,
+				48D63FF52851D0B900CF195C /* AlipayWidgetWeatherDateView.swift in Sources */,
 				481A8353284DF95600CA4BB6 /* QQSyncWidgetMedium.swift in Sources */,
 				4812FCB4284EFBA70051BAFD /* QQSyncWidgetDateShareItem.swift in Sources */,
 				4812FCB9284F3FAE0051BAFD /* URLRequest+Quote.swift in Sources */,
 				4812FCBD284F41160051BAFD /* QuoteResItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48AE3A7B28E19F0400D90254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48AE3A8C28E19F1600D90254 /* AlipayWidgetButtonItem.swift in Sources */,
+				48AE3A8D28E19F1A00D90254 /* WidgetIntents.intentdefinition in Sources */,
+				48AE3A8428E19F0400D90254 /* IntentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +478,11 @@
 			isa = PBXTargetDependency;
 			target = 482C8B5B282A3DD0006BB6BC /* DemoWidgetExtension */;
 			targetProxy = 482C8B68282A3DD5006BB6BC /* PBXContainerItemProxy */;
+		};
+		48AE3A8728E19F0400D90254 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48AE3A7E28E19F0400D90254 /* WidgetIntentExtension */;
+			targetProxy = 48AE3A8628E19F0400D90254 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -605,6 +744,62 @@
 			};
 			name = Release;
 		};
+		48AE3A8A28E19F0500D90254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M88583872C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetIntentExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetIntentExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morganwang.WidgetAllInOne.WidgetIntentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48AE3A8B28E19F0500D90254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M88583872C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetIntentExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetIntentExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morganwang.WidgetAllInOne.WidgetIntentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -631,6 +826,15 @@
 			buildConfigurations = (
 				482C8B6C282A3DD5006BB6BC /* Debug */,
 				482C8B6D282A3DD5006BB6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48AE3A8928E19F0500D90254 /* Build configuration list for PBXNativeTarget "WidgetIntentExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48AE3A8A28E19F0500D90254 /* Debug */,
+				48AE3A8B28E19F0500D90254 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
