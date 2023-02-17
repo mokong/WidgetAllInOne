@@ -2,7 +2,7 @@
 //  AlipayWidgetProvider.swift
 //  DemoWidgetExtension
 //
-//  Created by Horizon on 09/06/2022.
+//  Created by MorganWang on 09/06/2022.
 //
 
 import WidgetKit

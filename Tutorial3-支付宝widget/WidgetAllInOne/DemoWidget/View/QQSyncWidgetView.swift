@@ -2,7 +2,7 @@
 //  QQSyncWidgetView.swift
 //  DemoWidgetExtension
 //
-//  Created by Horizon on 01/06/2022.
+//  Created by MorganWang on 01/06/2022.
 //
 
 import SwiftUI

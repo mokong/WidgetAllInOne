@@ -2,7 +2,7 @@
 //  QQSyncWidgetQuoteShareItem.swift
 //  DemoWidgetExtension
 //
-//  Created by Horizon on 07/06/2022.
+//  Created by MorganWang on 07/06/2022.
 //
 
 import Foundation

@@ -2,7 +2,7 @@
 //  WidgetBundleDemo.swift
 //  DemoWidgetExtension
 //
-//  Created by Horizon on 08/06/2022.
+//  Created by MorganWang on 08/06/2022.
 //
 
 import SwiftUI

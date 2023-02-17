@@ -2,7 +2,7 @@
 //  AlipayWidgetButton.swift
 //  DemoWidgetExtension
 //
-//  Created by Horizon on 13/06/2022.
+//  Created by MorganWang on 13/06/2022.
 //
 
 import SwiftUI

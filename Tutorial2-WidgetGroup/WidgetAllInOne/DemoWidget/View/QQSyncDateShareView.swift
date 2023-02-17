@@ -2,7 +2,7 @@
 //  QQSyncDateShareView.swift
 //  DemoWidgetExtension
 //
-//  Created by Horizon on 06/06/2022.
+//  Created by MorganWang on 06/06/2022.
 //
 
 import SwiftUI

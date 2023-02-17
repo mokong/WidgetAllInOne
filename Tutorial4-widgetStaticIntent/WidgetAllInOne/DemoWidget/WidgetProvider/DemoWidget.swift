@@ -2,7 +2,7 @@
 //  DemoWidget.swift
 //  DemoWidget
 //
-//  Created by Horizon on 10/05/2022.
+//  Created by MorganWang on 10/05/2022.
 //
 
 import WidgetKit

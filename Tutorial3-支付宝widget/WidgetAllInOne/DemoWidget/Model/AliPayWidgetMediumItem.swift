@@ -2,7 +2,7 @@
 //  AliPayWidgetMediumItem.swift
 //  DemoWidgetExtension
 //
-//  Created by Horizon on 08/09/2022.
+//  Created by MorganWang on 08/09/2022.
 //
 
 import Foundation
